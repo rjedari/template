@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="./dist/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header class="bg-gray-900  z-50  fixed w-full">
+        <nav class="flex items-center  main-container justify-between py-4 px-6">
+          <div class="flex  items-center">
+            <a href="#">
+              <img src="./image/Batman-movie-Logo-1992-500x281.png" width="120px" alt="TMDb Logo">
+            </a>
+            <ul class="ml-10 space-x-6 flex text-white">
+              <li class="relative x">
+                <a href="#" class="  items-center flex hover:text-yellow-500">Movies <i
+                    class="fas fa-chevron-down px-2 text-xs "></i></a>
+                <ul class="absolute hidden mt-2 bg-white  top-4  rounded-md shadow-lg">
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                </ul>
+              </li>
+              <li class="relative x">
+                <a href="#" class="  items-center flex hover:text-yellow-500">TV Shows <i
+                    class="fas fa-chevron-down px-2 text-xs "></i></a>
+    
+                <ul class="absolute hidden mt-2 bg-white top-4  rounded-md shadow-lg">
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                </ul>
+              </li>
+              <li class="relative x">
+                <a href="#" class="  items-center flex hover:text-yellow-500">People <i
+                    class="fas fa-chevron-down px-2 text-xs "></i></a>
+    
+                <ul class="absolute hidden mt-2 bg-white top-4  rounded-md shadow-lg">
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                </ul>
+              </li>
+              <li class="relative x">
+                <a href="#" class="  items-center  flex hover:text-yellow-500">More <i
+                    class="fas fa-chevron-down px-2 text-xs "></i></a>
+    
+                <ul class="absolute hidden mt-2 bg-white  top-4 rounded-md shadow-lg">
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                  <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center space-x-6">
+            <a href="./signup.html" class="text-yellow-500 hover:text-gray-200">Join</a>
+            <a href="./login.html" class="text-yellow-500 hover:text-gray-200">Login</a>
+          </div>
+        </nav>
+      </header>
+
+    <main class="container main-container mb-32 mt-18 py-8">
+        <h1 class="text-2xl text-gray-100 font-bold mt-24 mb-4">Your Favorite Movies</h1>
+        <div class="  ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" z-10">
+                        <img class="w-full h-48 object-cover z-10 rounded-t-md"
+                            src="./image/rm6zG1gESQT0ww3mp8oUUT5LJBL.jpg" alt="Movie Image">
+
+                    </div>
+
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+
+
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class="">
+                        <img class="w-full h-48 object-cover rounded-t-md" src="./image/shqLeIkqPAAXM8iT6wVDiXUYz1p.jpg"
+                            alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class="">
+                        <img class="w-full h-48 object-cover rounded-t-md" src="./image/remQq0nfQoxY9fVglGGegHZjFxx.jpg"
+                            alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" ">
+                        <img class="w-full h-48 object-cover  rounded-t-md"
+                            src="./image/bu5tRlmXFGTFPcXa89hmKuUNsku.jpg" alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" ">
+                        <img class="w-full h-48 object-cover  rounded-t-md"
+                            src="./image/aC4oNwvmdFaB1MX60Ww0Vc79cgd.jpg" alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" ">
+                        <img class="w-full h-48 object-cover  rounded-t-md"
+                            src="./image/3FVvYhS8lmS9UN3UxBc1Kj8OxLb.jpg" alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" ">
+                        <img class="w-full h-48 object-cover  rounded-t-md"
+                            src="./image/Ai6HryU8R00XSgiCTeQoF75um84.jpg" alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md p-4">
+                    <div class=" ">
+                        <img class="w-full h-48 object-cover  rounded-t-md"
+                            src="./image/aVPR4EScBkSgznEy0TixQk8z4Ny.jpg" alt="Movie Image">
+
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex  justify-between">
+                            <h2 class="text-lg font-bold">Movie Title</h2>
+                            <button class=" top-2 right-2 bg-red-500 rounded-full p-2  px-3 focus:outline-none"
+                                aria-label="Favorite">
+                                <i class="fas fa-heart text-white"></i>
+
+                            </button>
+
+                        </div>
+                        <p class="text-sm text-gray-600">Director: Director Name</p>
+                        <p class="text-sm text-gray-600">Writers: Writer 1, Writer 2</p>
+                        <p class="text-sm text-gray-600">Actors: Actor 1, Actor 2, Actor 3</p>
+                        <p class="mt-2">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed
+                            vitae eros et odio vulputate condimentum.</p>
+                    </div>
+                </div>
+                <!-- Repeat the above structure for each movie -->
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 bottom-0 fixed w-full  py-4">
+        <div class="container mx-auto text-center text-white">
+            <p class="text-sm">&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

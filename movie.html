@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie</title>
+  <link rel="stylesheet" href="style2.css">
+  <link href="./dist/output.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="bg-gray-900  z-50 top-0 fixed w-full">
+    <nav class="flex items-center  main-container justify-between py-4 px-6">
+      <div class="flex  items-center">
+        <a href="#">
+          <img src="./image/Batman-movie-Logo-1992-500x281.png" width="120px" alt="TMDb Logo">
+        </a>
+        <ul class="ml-10 space-x-6 flex text-white">
+          <li class="relative x">
+            <a href="#" class="  items-center flex hover:text-yellow-500">Movies <i
+                class="fas fa-chevron-down px-2 text-xs "></i></a>
+            <ul class="absolute hidden mt-2 bg-white top-4 rounded-md shadow-lg">
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+            </ul>
+          </li>
+          <li class="relative x">
+            <a href="#" class="  items-center flex hover:text-yellow-500">TV Shows <i
+                class="fas fa-chevron-down px-2 text-xs "></i></a>
+
+            <ul class="absolute hidden mt-2 bg-white top-4  rounded-md shadow-lg">
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+            </ul>
+          </li>
+          <li class="relative x">
+            <a href="#" class="  items-center flex hover:text-yellow-500">People <i
+                class="fas fa-chevron-down px-2 text-xs "></i></a>
+
+            <ul class="absolute hidden mt-2 bg-white top-4  rounded-md shadow-lg">
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+            </ul>
+          </li>
+          <li class="relative x">
+            <a href="#" class="  items-center flex  hover:text-yellow-500">More <i
+                class="fas fa-chevron-down px-2 text-xs "></i></a>
+
+            <ul class="absolute hidden mt-2 bg-white top-4  rounded-md shadow-lg">
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+              <li><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">Demo</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="./signup.html" class="text-yellow-500 hover:text-gray-200">Join</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Movie Details Section -->
+  <section class="main-container w-3/4 mt-32 px-6">
+
+    <div>
+      <div class="  bg-yellow-500 bg-opacity-100  py-16 flex justify-center ">
+        <div class="bg-gray-200 gap-4 px-10  justify-center w-4/4 grid grid-cols-1 py-10 md:grid-cols-2">
+          <div>
+            <!-- Movie Poster -->
+            <div class=" flex justify-center flex-col px-5 ">
+              <img src=" ./image/shqLeIkqPAAXM8iT6wVDiXUYz1p.jpg" alt="Movie Poster" class="w-96 rounded-md h-64" />
+              <h1 class="text-4xl font-bold">Movie Title</h1>
+
+            </div>
+          </div>
+          <div class="bg-gray-100  shadow-sm py-5 justify-start  px-5 mr-5">
+            <p class="text-gray-600">Movie Description Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+            <p class="text-gray-600">Movie Description , consectetur adipiscing
+              elit.
+            </p>
+            <div class="flex justify-start my-10 mx-r">
+              <button class="px-2 mr-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"><i class="fas fa-thumbs-up"></i> <span>2k</span></button>
+              <button class="px-2 mr-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"><i class="fas fa-thumbs-down"></i> <span>900</span> </button>
+
+              <button class="px-2 mr-10 py-2 bg-red-500 text-white rounded hover:bg-red-700"><i class="fas fa-bookmark"></i><span class="mx-2">630</span> </button>
+            </div>
+
+
+            <div class="my-6">
+              <h2 class="text-xl font-bold mb-2">Categories & Genres</h2>
+              <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-100 rounded-full bg-gray-400 shadow-md px-3 py-2 hover:text-blue-700"> comedy</a></li>
+                <li><a href="#" class="text-gray-100 rounded-full bg-gray-400 shadow-md px-3 py-2 hover:text-blue-700"> animation</a></li>
+                <li><a class="text-gray-100 rounded-full bg-gray-400 shadow-md px-3 py-2 hover:text-blue-700"> children</a></li>
+              </ul>
+            </div>
+
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="my-6  w-6/6  grid grid-cols-1 md:grid-cols-1 back-img main-container  py-10">
+        <h2 class="text-xl font-bold mb-2">Cast & Crew</h2>
+
+        <div class="flex  shadowing  w-full bg-gray-100  bg-opacity-10 overflow-x-auto   main-container">
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/1.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/4.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/6.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/2.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/3.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/5.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+          <div class="">
+            <div class="w-52  shadow-lg flex flex-col items-center p-5 rounded-md m-10  relative">
+
+              <img src="./image/1.jpg" alt="Image 1" class=" object-cover rounded-md">
+              <div class="  w-36 h-8   text-gray-900   p-1">Director </div>
+              <div class="  w-36 h-8 text-gray-500    opacity-100 ">Cedric the Entertainer</div>
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="my-6  w-6/6  grid grid-cols-1 md:grid-cols-1 back-img main-container  py-10">
+        <h2 class="text-xl font-bold mb-2">Related Movies</h2>
+
+        <div class="flex  shadowing  w-full bg-gray-100  bg-opacity-10 overflow-x-auto   main-container">
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/1NxaSn4ver4jIvLeD7YF8cTlZjB.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/2kTYmmOU8SsDxSijIDpz9vkT9la.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+          <div>
+            <div class="w-48  m-10 rounded-md relative">
+              <div
+                class="absolute  rounded-full  right-1 px-2 h-5 flex items-center w-5 top-1 text-black hover:bg-blue-400  bg-gray-300 opacity-100 ">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+              <img src="./image/22nWrBPvM2p4mmpLxK4Oil1Spou.jpg" alt="Image 1"
+                class="w-full rounded-t-md  object-contain">
+              <div class=" px-3  w-36 h-8 text-gray-1000   hover:text-blue-500  opacity-100 ">Text demo</div>
+              <div class=" px-3   w-36 h-8 text-gray-300  text-xs  opacity-100 ">
+                Apr 07, 2023
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+
+    <!-- Movie Information -->
+
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <footer class="single_column   bg-gray-900 py-8">
+    <div class=" main-container mx-auto px-4">
+      <nav class="flex flex-wrap justify-center">
+        <div class="flex flex-col   w-30 items-center mb-4">
+          <img width="100px" src="./image/Batman-movie-Logo-1992-500x281.png" alt="">
+          <a href="#" class="rounded py-2 px-4 mt-4  bg-blue-500 text-white">Join the Community</a>
+        </div>
+        <div class="flex flex-col mb-4">
+          <h3 class="text-white text-lg font-bold mb-2">The Basics</h3>
+          <ul>
+            <li><a href="#" class="text-gray-400 hover:text-white">About TMDB</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Support Forums</a></li>
+            <li><a href="#" target="_blank" class="text-gray-400 hover:text-white">API</a></li>
+            <li><a href="#" target="_blank" rel="noopener" class="text-gray-400 hover:text-white">System Status</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col mb-4">
+          <h3 class="text-white text-lg font-bold mb-2">Get Involved</h3>
+          <ul>
+            <li><a href="#" class="text-gray-400 hover:text-white"><span class="glyphicons glyphicons-asterisk"></span>
+                Contribution Bible</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Add New Movie</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Add New TV Show</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col mb-4">
+          <h3 class="text-white text-lg font-bold mb-2">Legal</h3>
+          <ul>
+            <li><a href="#" class="text-gray-400 hover:text-white">Terms of Use</a>
+            </li>
+            <li><a href="#" class="text-gray-400 hover:text-white">API Terms of Use</a>
+            </li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
